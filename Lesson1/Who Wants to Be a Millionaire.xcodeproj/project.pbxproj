@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633BC47026BD04E900F35380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633BC46F26BD04E900F35380 /* AppDelegate.swift */; };
+		633BC47226BD04E900F35380 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633BC47126BD04E900F35380 /* SceneDelegate.swift */; };
+		633BC47426BD04E900F35380 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633BC47326BD04E900F35380 /* TitleViewController.swift */; };
+		633BC47726BD04E900F35380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633BC47526BD04E900F35380 /* Main.storyboard */; };
+		633BC47926BD04EA00F35380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633BC47826BD04EA00F35380 /* Assets.xcassets */; };
+		633BC47C26BD04EA00F35380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633BC47A26BD04EA00F35380 /* LaunchScreen.storyboard */; };
+		633BC48526BD1E9A00F35380 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633BC48426BD1E9A00F35380 /* Question.swift */; };
+		633BC48726BD1FAA00F35380 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633BC48626BD1FAA00F35380 /* DataSource.swift */; };
+		633BC48A26BD2F1200F35380 /* RoudingEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633BC48926BD2F1200F35380 /* RoudingEdges.swift */; };
+		633BC48D26BD334700F35380 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633BC48C26BD334700F35380 /* GameViewController.swift */; };
+		639BE5D326BEBB430063857A /* SingletonGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639BE5D226BEBB430063857A /* SingletonGame.swift */; };
+		639BE5D526BEBCD30063857A /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639BE5D426BEBCD30063857A /* GameSession.swift */; };
+		639BE5D726C04CC90063857A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639BE5D626C04CC90063857A /* ResultViewController.swift */; };
+		639BE5DB26C04F200063857A /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639BE5D926C04F200063857A /* ResultTableViewCell.swift */; };
+		639BE5DC26C04F200063857A /* ResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 639BE5DA26C04F200063857A /* ResultTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		633BC46C26BD04E900F35380 /* Who Wants to Be a Millionaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who Wants to Be a Millionaire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		633BC46F26BD04E900F35380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		633BC47126BD04E900F35380 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		633BC47326BD04E900F35380 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		633BC47626BD04E900F35380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		633BC47826BD04EA00F35380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		633BC47B26BD04EA00F35380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		633BC47D26BD04EA00F35380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633BC48426BD1E9A00F35380 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		633BC48626BD1FAA00F35380 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		633BC48926BD2F1200F35380 /* RoudingEdges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoudingEdges.swift; sourceTree = "<group>"; };
+		633BC48C26BD334700F35380 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		639BE5D226BEBB430063857A /* SingletonGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonGame.swift; sourceTree = "<group>"; };
+		639BE5D426BEBCD30063857A /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		639BE5D626C04CC90063857A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		639BE5D926C04F200063857A /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultTableViewCell.swift; path = "Who Wants to Be a Millionaire/View/Reuseble/ResultTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		639BE5DA26C04F200063857A /* ResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ResultTableViewCell.xib; path = "Who Wants to Be a Millionaire/View/Reuseble/ResultTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		633BC46926BD04E900F35380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		633BC46326BD04E900F35380 = {
+			isa = PBXGroup;
+			children = (
+				633BC46E26BD04E900F35380 /* Who Wants to Be a Millionaire */,
+				633BC46D26BD04E900F35380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		633BC46D26BD04E900F35380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				633BC46C26BD04E900F35380 /* Who Wants to Be a Millionaire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		633BC46E26BD04E900F35380 /* Who Wants to Be a Millionaire */ = {
+			isa = PBXGroup;
+			children = (
+				633BC48326BD1E3700F35380 /* Model */,
+				633BC48B26BD31EB00F35380 /* Controller */,
+				633BC48826BD2EDB00F35380 /* Graphic */,
+				639BE5D826C04EAA0063857A /* View */,
+				633BC46F26BD04E900F35380 /* AppDelegate.swift */,
+				633BC47126BD04E900F35380 /* SceneDelegate.swift */,
+				633BC47826BD04EA00F35380 /* Assets.xcassets */,
+				633BC47A26BD04EA00F35380 /* LaunchScreen.storyboard */,
+				633BC47D26BD04EA00F35380 /* Info.plist */,
+			);
+			path = "Who Wants to Be a Millionaire";
+			sourceTree = "<group>";
+		};
+		633BC48326BD1E3700F35380 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				639BE5D226BEBB430063857A /* SingletonGame.swift */,
+				633BC48426BD1E9A00F35380 /* Question.swift */,
+				633BC48626BD1FAA00F35380 /* DataSource.swift */,
+				639BE5D426BEBCD30063857A /* GameSession.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		633BC48826BD2EDB00F35380 /* Graphic */ = {
+			isa = PBXGroup;
+			children = (
+				633BC48926BD2F1200F35380 /* RoudingEdges.swift */,
+			);
+			path = Graphic;
+			sourceTree = "<group>";
+		};
+		633BC48B26BD31EB00F35380 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				633BC47326BD04E900F35380 /* TitleViewController.swift */,
+				633BC48C26BD334700F35380 /* GameViewController.swift */,
+				639BE5D626C04CC90063857A /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		639BE5D826C04EAA0063857A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				639BE5DD26C0584B0063857A /* Reuseble */,
+				633BC47526BD04E900F35380 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		639BE5DD26C0584B0063857A /* Reuseble */ = {
+			isa = PBXGroup;
+			children = (
+				639BE5D926C04F200063857A /* ResultTableViewCell.swift */,
+				639BE5DA26C04F200063857A /* ResultTableViewCell.xib */,
+			);
+			path = Reuseble;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		633BC46B26BD04E900F35380 /* Who Wants to Be a Millionaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633BC48026BD04EA00F35380 /* Build configuration list for PBXNativeTarget "Who Wants to Be a Millionaire" */;
+			buildPhases = (
+				633BC46826BD04E900F35380 /* Sources */,
+				633BC46926BD04E900F35380 /* Frameworks */,
+				633BC46A26BD04E900F35380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Who Wants to Be a Millionaire";
+			productName = "Who Wants to Be a Millionaire";
+			productReference = 633BC46C26BD04E900F35380 /* Who Wants to Be a Millionaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		633BC46426BD04E900F35380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					633BC46B26BD04E900F35380 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 633BC46726BD04E900F35380 /* Build configuration list for PBXProject "Who Wants to Be a Millionaire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 633BC46326BD04E900F35380;
+			productRefGroup = 633BC46D26BD04E900F35380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				633BC46B26BD04E900F35380 /* Who Wants to Be a Millionaire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		633BC46A26BD04E900F35380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633BC47C26BD04EA00F35380 /* LaunchScreen.storyboard in Resources */,
+				633BC47926BD04EA00F35380 /* Assets.xcassets in Resources */,
+				639BE5DC26C04F200063857A /* ResultTableViewCell.xib in Resources */,
+				633BC47726BD04E900F35380 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		633BC46826BD04E900F35380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639BE5DB26C04F200063857A /* ResultTableViewCell.swift in Sources */,
+				633BC47426BD04E900F35380 /* TitleViewController.swift in Sources */,
+				633BC48A26BD2F1200F35380 /* RoudingEdges.swift in Sources */,
+				633BC48D26BD334700F35380 /* GameViewController.swift in Sources */,
+				639BE5D326BEBB430063857A /* SingletonGame.swift in Sources */,
+				633BC48526BD1E9A00F35380 /* Question.swift in Sources */,
+				639BE5D726C04CC90063857A /* ResultViewController.swift in Sources */,
+				633BC47026BD04E900F35380 /* AppDelegate.swift in Sources */,
+				633BC48726BD1FAA00F35380 /* DataSource.swift in Sources */,
+				639BE5D526BEBCD30063857A /* GameSession.swift in Sources */,
+				633BC47226BD04E900F35380 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		633BC47526BD04E900F35380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633BC47626BD04E900F35380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		633BC47A26BD04EA00F35380 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633BC47B26BD04EA00F35380 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		633BC47E26BD04EA00F35380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		633BC47F26BD04EA00F35380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		633BC48126BD04EA00F35380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Who Wants to Be a Millionaire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VKApp1192.Who-Wants-to-Be-a-Millionaire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		633BC48226BD04EA00F35380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Who Wants to Be a Millionaire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VKApp1192.Who-Wants-to-Be-a-Millionaire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		633BC46726BD04E900F35380 /* Build configuration list for PBXProject "Who Wants to Be a Millionaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633BC47E26BD04EA00F35380 /* Debug */,
+				633BC47F26BD04EA00F35380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633BC48026BD04EA00F35380 /* Build configuration list for PBXNativeTarget "Who Wants to Be a Millionaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633BC48126BD04EA00F35380 /* Debug */,
+				633BC48226BD04EA00F35380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 633BC46426BD04E900F35380 /* Project object */;
+}
