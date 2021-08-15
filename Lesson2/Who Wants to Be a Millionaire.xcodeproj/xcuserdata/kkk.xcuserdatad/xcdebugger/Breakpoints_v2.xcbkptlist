@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3F9AA588-FC78-4DA3-B2A5-BADE428DE1EE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D120419-FB5E-40C9-8EFB-8386E64682B9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Who Wants to Be a Millionaire/Controller/TitleViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A2C967C-917C-4BF7-BA2C-342A6ABB6B15"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Who Wants to Be a Millionaire/Controller/GameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "getQuestion()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD06DD11-50A9-4EDB-8045-5A2D8294573D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Who Wants to Be a Millionaire/Controller/GameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "answerTouch(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BD06DD11-50A9-4EDB-8045-5A2D8294573D - ac0aff8dd8cf763c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Who_Wants_to_Be_a_Millionaire.GameViewController.answerTouch(__C.UIButton) -&gt; ()"
+                  moduleName = "Who Wants to Be a Millionaire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kkk/Desktop/Project/Who%20Wants%20to%20Be%20a%20Millionaire/Who%20Wants%20to%20Be%20a%20Millionaire/Controller/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "884">
+               </Location>
+               <Location
+                  uuid = "BD06DD11-50A9-4EDB-8045-5A2D8294573D - 786033f6efdd9396"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Who_Wants_to_Be_a_Millionaire.Answer) -&gt; Swift.Bool in Who_Wants_to_Be_a_Millionaire.GameViewController.answerTouch(__C.UIButton) -&gt; ()"
+                  moduleName = "Who Wants to Be a Millionaire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kkk/Desktop/Project/Who%20Wants%20to%20Be%20a%20Millionaire/Who%20Wants%20to%20Be%20a%20Millionaire/Controller/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
